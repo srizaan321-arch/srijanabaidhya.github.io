@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Srijana Baidhya | Clinical Dietitian</title>
+<meta name="description" content="Srijana Baidhya — Clinical Dietitian and PhD Scholar providing evidence-based clinical nutrition and personalised dietary counselling in Kathmandu, Nepal.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--green:#173f35;--green2:#2f6957;--pink:#f3dfe3;--pink2:#f9edf0;--cream:#faf7f3;--text:#20312d;--muted:#687772;--white:#fff;--line:#e4e8e4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans",Arial,sans-serif;color:var(--text);background:var(--cream);line-height:1.65}
+a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(250,247,243,.93);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between}
+.logo{font:700 23px "Playfair Display",serif;color:var(--green)}.logo small{display:block;font:700 9px "DM Sans";letter-spacing:2.2px;text-transform:uppercase;color:var(--green2)}
+.links{display:flex;gap:30px;font-size:14px;font-weight:600}.links a:hover{color:var(--green2)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 22px;border-radius:999px;background:var(--green);color:#fff;font-weight:700;font-size:14px;border:1px solid var(--green);transition:.2s}.btn:hover{transform:translateY(-2px)}
+.btn.outline{background:transparent;color:var(--green)}
+.hero{min-height:690px;display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;padding:70px 0}
+.kicker{font-size:12px;letter-spacing:2.3px;text-transform:uppercase;color:var(--green2);font-weight:800;margin-bottom:14px}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;color:var(--green)}
+h1{font-size:clamp(48px,6vw,78px);line-height:1.02;letter-spacing:-2px;margin-bottom:22px}
+.hero p{font-size:18px;color:var(--muted);max-width:580px;margin-bottom:28px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-art{height:550px;border-radius:280px 280px 26px 26px;overflow:hidden;position:relative;background:var(--pink)}
+.hero-art:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,63,53,.05),rgba(23,63,53,.22));z-index:1}
+.hero-art img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.art-caption{position:absolute;z-index:2;left:22px;bottom:22px;background:rgba(255,255,255,.88);padding:11px 15px;border-radius:13px;font-size:12px;font-weight:700;color:var(--green)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:18px;overflow:hidden;margin-bottom:10px}
+.stat{background:#fff;text-align:center;padding:25px 12px}.stat strong{display:block;font:700 29px "Playfair Display",serif;color:var(--green)}.stat span{font-size:12px;color:var(--muted)}
+section{padding:105px 0}.section-head{max-width:690px;margin-bottom:44px}.section-head h2{font-size:clamp(35px,4.5vw,52px);line-height:1.08;margin-bottom:13px}.section-head p{color:var(--muted)}
+.about{background:var(--pink2)}
+.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center}
+.about-photo{height:520px;border-radius:28px;overflow:hidden}.about-photo img{width:100%;height:100%;object-fit:cover}
+.about-copy p{color:var(--muted);margin-bottom:17px}
+.highlights{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.highlight{background:#fff;border:1px solid var(--line);padding:17px;border-radius:13px;font-size:13px}.highlight b{display:block;color:var(--green);margin-bottom:3px}
+.services{background:#fff}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:20px;padding:29px;background:#fff;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 15px 40px rgba(23,63,53,.09)}
+.icon{width:47px;height:47px;border-radius:50%;background:var(--pink);display:grid;place-items:center;color:var(--green);font-size:12px;font-weight:800;margin-bottom:19px}.card h3{font-size:23px;margin-bottom:9px}.card p{font-size:14px;color:var(--muted)}.tags{font-size:10px;letter-spacing:1px;font-weight:800;color:var(--green2);margin-top:16px}
+.credentials{background:var(--cream)}.timeline{max-width:900px}.item{display:grid;grid-template-columns:145px 1fr;gap:30px;padding:27px 0;border-top:1px solid var(--line)}.item:first-child{border-top:0}.year{font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--green2)}.item h3{font-size:22px;margin-bottom:5px}.item p{font-size:14px;color:var(--muted)}
+.publication{margin-top:35px;background:var(--green);color:#fff;border-radius:20px;padding:30px}.publication h3{color:#fff;font-size:22px;margin-bottom:8px}.publication p{font-size:14px;color:#dce9e4}
+.contact{background:var(--green);color:#fff}.contact h2{color:#fff}.contact .section-head p{color:#d8e5df}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px}.contact-info p{color:#d8e5df;margin:9px 0}.contact-info strong{color:#fff}
+form{background:#fff;color:var(--text);padding:31px;border-radius:22px;display:grid;gap:13px}input,select,textarea{width:100%;padding:14px;border:1px solid var(--line);border-radius:11px;font:inherit}textarea{min-height:125px;resize:vertical}form .btn{cursor:pointer}
+footer{background:#102f28;color:#cbd9d4;padding:28px 0;font-size:12px}.footer{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.whatsapp{position:fixed;right:22px;bottom:22px;z-index:30;background:#1d6b50;color:#fff;border-radius:999px;padding:13px 18px;font-weight:800;font-size:13px;box-shadow:0 8px 25px rgba(0,0,0,.18)}
+@media(max-width:850px){.links{display:none}.hero,.about-grid,.contact-grid{grid-template-columns:1fr}.hero{padding:52px 0}.hero-art{height:450px}.stats{grid-template-columns:1fr 1fr}section{padding:72px 0}.grid{grid-template-columns:1fr}.item{grid-template-columns:1fr;gap:5px}.about-photo{height:430px}}
+</style>
+</head>
+<body>
+
+<nav><div class="container nav">
+<a class="logo" href="#home">Srijana Baidhya<small>Clinical Dietitian</small></a>
+<div class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></div>
+<a class="btn" href="#contact">Book Consultation</a>
+</div></nav>
+
+<main id="home">
+<section class="hero container">
+<div>
+<div class="kicker">Clinical Dietitian • PhD Scholar</div>
+<h1>Better nutrition.<br>Better health.</h1>
+<p>Evidence-based clinical nutrition and personalised dietary counselling for real-life health goals — from therapeutic nutrition and weight management to reproductive and metabolic health.</p>
+<div class="actions"><a class="btn" href="#contact">Book a Consultation →</a><a class="btn outline" href="#services">Explore Services</a></div>
+</div>
+<div class="hero-art">
+<img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=85" alt="Woman exercising">
+<div class="art-caption">Nutrition • Movement • Sustainable Health</div>
+</div>
+</section>
+
+<div class="container stats">
+<div class="stat"><strong>7+</strong><span>Years of Experience</span></div>
+<div class="stat"><strong>2,000+</strong><span>Clients Counselled</span></div>
+<div class="stat"><strong>PhD</strong><span>Food & Nutrition Scholar</span></div>
+<div class="stat"><strong>Clinical</strong><span>Hospital Nutrition Care</span></div>
+</div>
+
+<section id="about" class="about"><div class="container about-grid">
+<div class="about-photo"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=85" alt="Professional woman"></div>
+<div class="about-copy">
+<div class="kicker">About Srijana</div><h2>Clinical care grounded in nutrition science.</h2>
+<p>Srijana Baidhya is a Clinical Dietitian with clinical, academic and public-health nutrition experience. Her practice combines patient-centred counselling with evidence-based dietary management.</p>
+<p>She has worked in hospital clinical nutrition and has professional experience with nutrition projects and reproductive-health settings, including Star Hospital, JAFS Nutrition Project, National IVF Center for Reproductive Health and LG Clinic for Reproductive Health.</p>
+<p>Her academic background includes a Bachelor in Nursing Science from Nobel Medical College, Kathmandu University, a Master's in Food and Nutrition from Tribhuvan University, and an ongoing PhD in Nutrition and Dietetics.</p>
+<div class="highlights">
+<div class="highlight"><b>Clinical Nutrition</b>Hospital-based nutritional assessment and personalised diet care.</div>
+<div class="highlight"><b>Research</b>Public-health nutrition, dietary research and SPSS-based analysis.</div>
+<div class="highlight"><b>Reproductive Health</b>Nutrition counselling in fertility and reproductive-health settings.</div>
+<div class="highlight"><b>Education</b>Academic teaching and nutrition education.</div>
+</div>
+</div></div></section>
+
+<section id="services" class="services"><div class="container">
+<div class="section-head"><div class="kicker">Services</div><h2>Nutrition care designed around you.</h2><p>Practical, individualised dietary support informed by your health condition, nutritional needs, food habits and lifestyle.</p></div>
+<div class="grid">
+<article class="card"><div class="icon">01</div><h3>Therapeutic Nutrition</h3><p>Medical nutrition therapy and personalised diet planning for diabetes, hypertension, kidney disease, gastrointestinal conditions and other clinical needs.</p><div class="tags">DIABETES • HTN • RENAL • GI</div></article>
+<article class="card"><div class="icon">02</div><h3>Weight Management</h3><p>Evidence-based weight-loss and weight-gain plans focused on sustainable dietary habits rather than fad diets.</p><div class="tags">WEIGHT LOSS • WEIGHT GAIN</div></article>
+<article class="card"><div class="icon">03</div><h3>Reproductive Health Nutrition</h3><p>Nutrition counselling for women receiving fertility and reproductive-health care, with individual dietary assessment and practical guidance.</p><div class="tags">FERTILITY • WOMEN'S HEALTH</div></article>
+<article class="card"><div class="icon">04</div><h3>Metabolic Health</h3><p>Dietary strategies supporting cardiometabolic health, blood pressure management, glucose control and healthier eating patterns.</p><div class="tags">METABOLIC • CARDIOVASCULAR</div></article>
+<article class="card"><div class="icon">05</div><h3>Personalised Diet Plans</h3><p>Meal plans adapted to medical requirements, local foods, preferences, schedule, budget and achievable lifestyle changes.</p><div class="tags">PERSONALISED • PRACTICAL</div></article>
+<article class="card"><div class="icon">06</div><h3>Nutrition Counselling</h3><p>One-to-one nutrition education and behaviour-focused counselling to turn nutrition knowledge into sustainable daily practice.</p><div class="tags">COUNSELLING • EDUCATION</div></article>
+</div></div></section>
+
+<section id="credentials" class="credentials"><div class="container">
+<div class="section-head"><div class="kicker">Credentials</div><h2>Education & professional experience.</h2><p>A clinical and academic pathway combining nursing, food and nutrition, teaching, research and dietetic practice.</p></div>
+<div class="timeline">
+<div class="item"><div class="year">Academic</div><div><h3>PhD in Nutrition and Dietetics</h3><p>Padmakanya Campus, Tribhuvan University, Nepal — ongoing.</p></div></div>
+<div class="item"><div class="year">Academic</div><div><h3>Master's in Food and Nutrition</h3><p>Padmakanya Campus, Tribhuvan University, Nepal.</p></div></div>
+<div class="item"><div class="year">Academic</div><div><h3>Bachelor in Nursing Science</h3><p>Nobel Medical College, Kathmandu University, Nepal.</p></div></div>
+<div class="item"><div class="year">Clinical</div><div><h3>Clinical Dietitian — Star Hospital</h3><p>Clinical nutritional screening, individualised diet care and patient counselling.</p></div></div>
+<div class="item"><div class="year">Nutrition</div><div><h3>JAFS Nutrition Project</h3><p>Professional involvement in nutrition project activities.</p></div></div>
+<div class="item"><div class="year">Women’s Health</div><div><h3>National IVF Center for Reproductive Health & LG Clinic for Reproductive Health</h3><p>Clinical dietetic and nutrition counselling support in reproductive-health settings.</p></div></div>
+<div class="item"><div class="year">Academic</div><div><h3>Faculty Teacher — Padmakanya Campus</h3><p>Nutrition education, teaching and assessment-related academic activities.</p></div></div>
+</div>
+<div class="publication"><h3>Featured Publication</h3><p><b>Baidhya, S. (2024).</b> Knowledge of Food Label Among Master’s Students of Home Science in Kathmandu: A Cross-Sectional Study. <i>Journal of Healthcare and Biomedical Science, 3(1), 1–10.</i> DOI: 10.31098/jhbs.v3i1.2198</p></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="container">
+<div class="section-head"><div class="kicker">Book a Consultation</div><h2>Let's build a nutrition plan that fits your life.</h2><p>Complete the form to request a consultation. Your contact details can later be connected to email, WhatsApp or a booking platform.</p></div>
+<div class="contact-grid">
+<div class="contact-info">
+<h3 style="font-size:27px;margin-bottom:15px">Get in touch</h3>
+<p>📞 <strong>9841693341</strong></p><p>✉️ <strong>srizaan321@gmail.com</strong></p><p>📍 <strong>Tyanglaphat, Kirtipur, Kathmandu</strong></p>
+<br><p>Consultations can be offered according to availability and may be arranged in person or online.</p>
+</div>
+<form onsubmit="event.preventDefault();alert('Thank you. The consultation form is ready to connect with your email or booking system.');">
+<input required placeholder="Full Name"><input type="email" required placeholder="Email Address"><input placeholder="Phone Number">
+<select><option>Consultation Type</option><option>Therapeutic / Medical Nutrition</option><option>Weight Management</option><option>Reproductive Health Nutrition</option><option>Metabolic Health</option><option>General Nutrition</option></select>
+<textarea placeholder="Briefly describe your nutrition goal or concern"></textarea>
+<button class="btn" type="submit">Submit Consultation Request</button>
+</form>
+</div></div></section>
+</main>
+
+<footer><div class="container footer"><div><b>Srijana Baidhya</b> • Clinical Dietitian</div><div>© 2026 Srijana Baidhya. All rights reserved.</div></div></footer>
+<a class="whatsapp" href="https://wa.me/9779841693341" target="_blank">WhatsApp Consultation</a>
+</body></html>
